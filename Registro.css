@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    
+}
+body{
+    background-color: rgb(197, 222, 245);
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+header .logo
+{
+    position: relative;
+    max-width: 150px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: #000 1px 5px 15px;
+}
+header ul li 
+{
+    list-style: none;
+    border-radius: 20px;
+    border: 1px solid #000;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+   
+    
+
+}
+header ul li a 
+{
+    
+    display: inline-block;
+    color: #333;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+   
+}
+.name-logo{
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+.name-logo span{
+    color:rgb(89, 122, 150);
+}
+
+.center
+{
+    
+    margin:60px;
+    padding-top: 10%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center .inside 
+{
+    position: relative;
+    max-width: 600px;
+}
+.center .inside  h2
+{
+    color: #333;
+    font-size: 2.5em;
+    line-height: 1.4em;
+    font-weight: 500;
+    margin-left:10px;
+}
+.center .inside h2 span
+{
+    color: rgb(89, 122, 150);
+    font-size: 1.2em;
+    font-weight: 9004;
+    margin-left:10px;
+}
+.center .inside  a
+{
+    color: #333;
+    margin-left: 10px;
+    margin-bottom: 9px;
+    
+}
+.inside{
+    margin-top:50px;
+    margin-left: 50%;
+    border: #fff solid 2px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: #000 10px 13px 25px;
+}
+.center-side{
+    position: absolute;
+    margin-top: 10%;
+    border: 1px solid black;
+    border-radius:20px;
+    background: #fff;
+    margin-left:75px;
+    
+}.tittle span{
+    color:rgb(89, 122, 150);
+}
+
+.tittle-text{
+    text-align: center;
+   
+    font-size: 45px;
+}
+.field{
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 50px;
+    margin-left:30px;
+}
+.field-btn
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+    
+}
+.btn{
+    width:100%;
+    background-color: rgb(68, 155, 232);
+    font-size: 20px;
+    border-radius: 20px;
+    border:1px solid #000;
+}
+.pass
+{
+    text-align: center;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img{
+    margin-left:70px;
+}
+.reference
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding:  8px 20px;
+    background: rgb(47, 176, 240);
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.circle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(64, 138, 203);
+    clip-path: circle(600px at right 800px);
+    
+}
+.second-circle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: circle(500px at right 700px);
+    
+}
+.third-circle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(47, 176, 240);
+    clip-path: circle(300px at left 800px );
+    
+}
+.decor{
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+  position: relative;
+  display: flex;
+}
+.content h3
+{
+    padding-top: 10%;
+    margin-left:22%;
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+  
+}
+
+
+
+
