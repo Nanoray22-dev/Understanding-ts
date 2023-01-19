@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlimMed</title>
+    <link rel="icon" href="Logo.webp">
+    <link rel="stylesheet" href="appoiment.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <div class="second-circle"></div>
+        <div class="third-circle"></div>
+        <header>
+            <a class="logo" href="#"><img src="Logo.webp" width="100px"></a>
+         <nav>
+            <ul>
+                <li class="name-logo"><span>Slim</span>Med</li>
+               <label for="home"> <li class="decor"><a href="index.html"><i class="fas fa-home"></i> Home</a></li></label>
+               <label for="date"><li class="decor"><a href="#"><i class="far fa-envelope"></i> Schedule appointments </a></li></label>
+               <label for="consult"><li class="decor"><a href="#"><i class="far fa-hospital"></i> View my inquiry</a></li></label>
+               <label for="Contact"><li class="decor"><a href="#"><i class="far fa-user"></i> Contact</a></li></label>
+           </ul>
+         </nav>
+    </header>      
+
+
+    <fieldset class="field">
+        <legend class="letter">
+           <span>Slim</span>Med
+        </legend>
+        <h3>Medical Appointments</h3>
+       
+        <select id="Doctor" name="selectd">
+           <option value="">- who is your Doctor -</option>
+    <option value="01">Julian Medina</option>
+    <option value="02">Allen Davenport</option>
+    <option value="03">Leandro Valerio</option>
+    <option value="04">Victor Santana</option>
+  </select>
+
+  <br/><br/>
+<div class="date">
+  <label for="fecha_dia">Date of the Appoimet</label> <br/>
+  <input type="date">
+</div>
+<div class="date">
+    <label for="time_dia">Time of the Appoimet</label> <br/>
+    <input type="time">
+  </div>
+
+<div class="consult">
+    <i class="far fa-hospital "></i> <label for="Motivo de la consulta">Reason for consultation</label> <br/>
+  <select multiple="multiple" size="5" id="Motivo de la consulta" name="Motivo de la consulta">
+    <option value="1">Dolor de garganta</option>
+    <option value="2">depresión</option>
+    <option value="3">dolor de cabeza</option>
+    <option value="4">dolor de estómago</option>
+    <option value="5">ansiedad</option>
+    <option value="6">palpitaciones</option>
+    <option value="7">Insomnio</option>
+    <option value="8">Infecciones respiratorias agudas</option>
+    <option value="9">Infección de vías urinarias</option>
+    <option value="10">Diabetes mellitus no-insulino dependiente (tipo II)</option>
+  </select>
+</div>
+ <div class="run">
+    <i class="far fa-user "></i> <input type="number" name="ID" placeholder="Enter your  ID">
+</div>
+<div class="run">
+    <i class="far fa-user "></i> <input type="Text" name="Apellido" placeholder="Enter your fullName">
+</div>
+<div class="run">
+    <i class="far fa-user "></i> <input type="number" name="ID" placeholder="Enter your age">
+</div>
+<div class="run">
+    <i class="far fa-envelope "></i> <input type="Email" name="Email" placeholder="Enter your Email">
+</div>
+sex:
+<br>
+
+<input type="radio" name="Sexo" value="Hombre"
+checked="select">Man
+<br>
+<input type="radio" name="Sexo" value="Mujer"
+checked="select">Women
+<br>
+<br>
+
+
+<div>
+<input type="checkbox" name="Sufrio Covid" >Sufrio Covid
+<input type="checkbox" name="Es Seguimiento" >Es Seguimiento
+<input type="checkbox" name="Viene acompañado" > Viene acompañado
+</div>
+<div class="select">
+    <h4>Who accompanies you to your medical appointment </h4>
+    
+<select class="save" name="acompañante" id="acompañante">
+    <option value="">Mother</option>
+    <option value="">Father</option>
+    <option value="">Sister</option>
+    <option value="">Brother</option>
+    <option value="">Tutor</option>
+    <option value="">Friends</option>
+</select>
+<div class="select">
+    <select name="tipo de paciente" id="">
+        <option value="">Tipo de Paciente</option>
+        <option value="">Recuente</option>
+        <option value="">Paciente Nuevo</option>
+    </select>
+</div>
+</div>
+<div class="save">
+<input type="button" name="Guardar" value="Guardar cambios" size="3">
+<input type="reset" name="Limpiar" value="Borrar los datos introducidos">
+</div>
+</fieldset>
+</form>  
+</body>
+</html>
+
+
+
